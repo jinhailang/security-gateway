@@ -1,0 +1,19 @@
+{
+  "etcd": {
+    "endpoints": [
+      "http://127.0.0.1:2379"
+    ],
+    "timeout": 1,
+    "prefix":"/gateway"
+  },
+  "limit_ratio": 1,
+  "close": false,
+  "plugins": [
+    "limit-ratio"
+  ],
+  "log": {
+    "host":"127.0.0.1",
+    "port":1235
+  },
+  "stat_period":5
+}
