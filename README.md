@@ -6,7 +6,7 @@
 
 详见 [开发文档](xxx)
 
-## Depend
+## Dependencies
 
 - openresty/1.15.8.1
 - etcd (v2 api)
